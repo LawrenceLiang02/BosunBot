@@ -18,7 +18,7 @@ const commands = [
 ];
 
 const rest = new REST({ version: '10' }).setToken(process.env.DISCORD_JS_TOKEN);
-
+  
 (async () => {
   try {
     console.log('Started refreshing application (/) commands.');
