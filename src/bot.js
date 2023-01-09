@@ -51,6 +51,9 @@ client.on('messageCreate', async message => {
     else if (message.content.toLowerCase() === "boo"){
       message.channel.send("AHHHH");
   }
+  else{
+    console.log(message.content);
+  }
     
 })
 
