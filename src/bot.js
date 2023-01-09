@@ -48,6 +48,9 @@ client.on('messageCreate', async message => {
     if (message.content.toLowerCase() === "kartvelian"){
         message.channel.send("FUCK THAT GUY HE GAY");
     }
+    else if (message.content.toLowerCase() === "boo"){
+      message.channel.send("AHHHH");
+  }
     
 })
 
